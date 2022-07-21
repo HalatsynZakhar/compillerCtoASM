@@ -5,7 +5,9 @@ Input data: InputProgram.txt
 Output data: OutputProgram.asm
 
 Input example:
+
 1.
+
 int main(){
     int i = 0;
     do {
@@ -17,6 +19,7 @@ int main(){
 }
 
 2. 
+
 int sum(int a, int b, int d, int e, int f) {
     return a + b + d + e + f;
 }
@@ -27,6 +30,7 @@ int main(){
     
 
 3.
+
 int calculator(int a, int operation, int b){
     int result = -1;
     result = operation == 1 ? a & b : result;
